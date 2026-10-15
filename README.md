@@ -55,13 +55,12 @@ spring.jpa.show-sql=true
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 
-jwt.secret=<votre_clé_secrète_en_base64>
+jwt.secret=****
 jwt.expiration=604800000
 
 logging.level.org.springframework.security=DEBUG
 ```
 
-> ⚠️ Ne publiez jamais votre vraie clé secrète JWT sur GitHub : utilisez une variable d'environnement ou un fichier ignoré par Git.
 
 ## 3. JWT
 
